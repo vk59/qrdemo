@@ -1,16 +1,18 @@
 const html5QrCode = new Html5Qrcode(/* element id */ "reader", true);
-let cameraNum=0
-function start(cameraNumber) {
-    Html5Qrcode.getCameras().then(devices => {
+let cameraNum=-1
+let cameras
+
+function startCamera() {
+    cameras.then(devices => {
         /**
          * devices would be an array of objects of type:
          * { id: "id", label: "label" }
          */
         // devicesLength = devices.length
-        if (cameraNumber == -1) {
+        if (cameraNum == -1) {
             cameraNum = devices.length - 1;
-            console.log("Camera Number: " + cameraNum)
         }
+        console.log("Camera Number: " + cameraNum)
         if (devices && devices.length) {
             cameraId = devices[cameraNum].id;
             return scanning(cameraId)
@@ -20,12 +22,17 @@ function start(cameraNumber) {
     });
 }
 
+function start() {
+    cameras = Html5Qrcode.getCameras()
+    startCamera()
+}
+
 function scanning() {
     html5QrCode.start(
         cameraId,
         {
             fps: 10,    // Optional frame per seconds for qr code scanning
-            qrbox: 250  // Optional if you want bounded box UI
+            qrbox: 500 // Optional if you want bounded box UI
         },
         qrCodeMessage => {
             document.getElementById("output").innerText = qrCodeMessage
@@ -49,7 +56,7 @@ function stopScan(html5QrCode) {
 
 function onChangeCameraClick(){
     cameraNum--
-    start(cameraNum)
+    startCamera()
 }
 
-start(-1);
+start();

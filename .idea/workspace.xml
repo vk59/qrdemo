@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93626fc8-2a3b-4270-bf00-1e74e645b2b6" name="Default Changelist" comment="Choosing camera is implemented.">
+    <list default="true" id="93626fc8-2a3b-4270-bf00-1e74e645b2b6" name="Default Changelist" comment="Camera-screen in full-hd.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/startScan.js" beforeDir="false" afterPath="$PROJECT_DIR$/startScan.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,7 @@
       <workItem from="1597900080791" duration="3805000" />
       <workItem from="1597905650724" duration="4118000" />
       <workItem from="1597986595639" duration="2046000" />
-      <workItem from="1598033159351" duration="1619000" />
+      <workItem from="1598033159351" duration="2248000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Easy mode.">
       <created>1597908264001</created>
@@ -90,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598034130340</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Camera-screen in full-hd.">
+      <created>1598034827953</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598034827953</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +117,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit. Easy mode." />
     <MESSAGE value="Choosing camera is implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="Choosing camera is implemented." />
+    <MESSAGE value="Camera-screen in full-hd." />
+    <option name="LAST_COMMIT_MESSAGE" value="Camera-screen in full-hd." />
   </component>
   <component name="WindowStateProjectService">
     <state x="726" y="258" width="541" height="612" key="FileChooserDialogImpl" timestamp="1597988184195">
