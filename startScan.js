@@ -1,6 +1,6 @@
 const html5QrCode = new Html5Qrcode(/* element id */ "reader", true);
 let cameraNum=0
-function start(cameraNumber=-1) {
+function start(cameraNumber) {
     Html5Qrcode.getCameras().then(devices => {
         /**
          * devices would be an array of objects of type:
@@ -9,6 +9,7 @@ function start(cameraNumber=-1) {
         // devicesLength = devices.length
         if (cameraNumber == -1) {
             cameraNum = devices.length - 1;
+            console.log("Camera Number: " + cameraNum)
         }
         if (devices && devices.length) {
             cameraId = devices[cameraNum].id;
@@ -51,4 +52,4 @@ function onChangeCameraClick(){
     start(cameraNum)
 }
 
-start();
+start(-1);
