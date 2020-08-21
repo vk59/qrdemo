@@ -2,25 +2,14 @@
 <html>
 <head>
     <title>QR-scanner</title>
-    <script src="html5-qrcode.min.js"></script>
 </head>
 <body>
     <h1>QR-code's Scanner</h1>
-    <div id="reader" style="width:600px"></div>
-    <script>
-        function onScanSuccess(qrMessage) {
-            // handle the scanned code as you like
-            console.log(`QR matched = ${qrMessage}`);
-        }
-
-        function onScanFailure(error) {
-            // handle scan failure, usually better to ignore and keep scanning
-            console.warn(`QR error = ${error}`);
-        }
-
-        let html5QrcodeScanner = new Html5QrcodeScanner(
-            "reader", { fps: 10, qrbox: 250 }, /* verbose= */ true);
-        html5QrcodeScanner.render(onScanSuccess, onScanFailure);
+    <h2 id="output">There will be a QR-code</h2>
+    <button id="stop" onclick="stopScan(html5QrCode)">Stop</button>
+    <div id="reader" width="600px"></div>
+    <script src="node_modules/html5-qrcode/minified/html5-qrcode.min.js"></script>
+    <script src="startScan.js">
     </script>
 </body>
 </html>
