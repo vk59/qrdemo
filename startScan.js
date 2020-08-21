@@ -56,6 +56,7 @@ function stopScan(html5QrCode) {
 
 function onChangeCameraClick(){
     cameraNum--
+    stopScan()
     startCamera()
     scanning()
 }
