@@ -1,12 +1,17 @@
 const html5QrCode = new Html5Qrcode(/* element id */ "reader", true);
-function start() {
+let cameraNum=0
+function start(cameraNumber=-1) {
     Html5Qrcode.getCameras().then(devices => {
         /**
          * devices would be an array of objects of type:
          * { id: "id", label: "label" }
          */
+        // devicesLength = devices.length
+        if (cameraNumber == -1) {
+            cameraNum = devices.length - 1;
+        }
         if (devices && devices.length) {
-            let cameraId = devices[0].id;
+            cameraId = devices[cameraNum].id;
             return scanning(cameraId)
         }
     }).catch(err => {
@@ -14,7 +19,7 @@ function start() {
     });
 }
 
-function scanning(cameraId) {
+function scanning() {
     html5QrCode.start(
         cameraId,
         {
@@ -39,6 +44,11 @@ function stopScan(html5QrCode) {
     }).catch(err => {
         // Stop failed, handle it.
     });
+}
+
+function onChangeCameraClick(){
+    cameraNum--
+    start(cameraNum)
 }
 
 start();

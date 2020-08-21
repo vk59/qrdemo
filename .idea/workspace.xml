@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93626fc8-2a3b-4270-bf00-1e74e645b2b6" name="Default Changelist" comment="Initial commit. Easy mode.">
-      <change afterPath="$PROJECT_DIR$/startScan.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html5-qrcode.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startScan.js" beforeDir="false" afterPath="$PROJECT_DIR$/startScan.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +74,7 @@
       <workItem from="1597900080791" duration="3805000" />
       <workItem from="1597905650724" duration="4118000" />
       <workItem from="1597986595639" duration="2046000" />
+      <workItem from="1598033159351" duration="683000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Easy mode.">
       <created>1597908264001</created>
@@ -99,6 +99,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit. Easy mode." />
