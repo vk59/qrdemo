@@ -46,7 +46,7 @@ function scanning() {
         });
 }
 
-function stopScan(html5QrCode) {
+function stopScan() {
     html5QrCode.stop().then(ignore => {
         // QR Code scanning is stopped.
     }).catch(err => {
