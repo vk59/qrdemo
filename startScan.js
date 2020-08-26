@@ -8,9 +8,9 @@ function startCamera() {
          * devices would be an array of objects of type:
          * { id: "id", label: "label" }
          */
-        // devicesLength = devices.length
+
         if (cameraNum == -1) {
-            cameraNum = devices.length - 1;
+            cameraNum = devices.length - 2;
         }
         console.log("Camera Number: " + cameraNum)
         if (devices && devices.length) {
@@ -57,8 +57,7 @@ function stopScan(html5QrCode) {
 function onChangeCameraClick(){
     cameraNum--
     stopScan()
-    startCamera()
-    scanning()
+    start()
 }
 
 start();

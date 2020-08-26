@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93626fc8-2a3b-4270-bf00-1e74e645b2b6" name="Default Changelist" comment="Camera-screen in full-hd.">
+    <list default="true" id="93626fc8-2a3b-4270-bf00-1e74e645b2b6" name="Default Changelist" comment="Full-screen camera.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/startScan.js" beforeDir="false" afterPath="$PROJECT_DIR$/startScan.js" afterDir="false" />
     </list>
@@ -49,13 +49,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../client-task" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hacksec" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -73,7 +74,10 @@
       <workItem from="1597900080791" duration="3805000" />
       <workItem from="1597905650724" duration="4118000" />
       <workItem from="1597986595639" duration="2046000" />
-      <workItem from="1598033159351" duration="2248000" />
+      <workItem from="1598033159351" duration="3955000" />
+      <workItem from="1598077816998" duration="3306000" />
+      <workItem from="1598357686996" duration="4200000" />
+      <workItem from="1598417266914" duration="1021000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Easy mode.">
       <created>1597908264001</created>
@@ -96,7 +100,49 @@
       <option name="project" value="LOCAL" />
       <updated>1598034827953</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Corrected changing camera.">
+      <created>1598035434164</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598035434164</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Corrected changing camera.">
+      <created>1598035575627</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598035575627</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Corrected changing camera.">
+      <created>1598035748551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598035748551</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Full-screen camera.">
+      <created>1598035921372</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598035921372</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Full-screen camera.">
+      <created>1598036107252</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598036107252</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Full-screen camera.">
+      <created>1598036260572</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598036260572</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,17 +164,23 @@
     <MESSAGE value="Initial commit. Easy mode." />
     <MESSAGE value="Choosing camera is implemented." />
     <MESSAGE value="Camera-screen in full-hd." />
-    <option name="LAST_COMMIT_MESSAGE" value="Camera-screen in full-hd." />
+    <MESSAGE value="Corrected changing camera." />
+    <MESSAGE value="Full-screen camera." />
+    <option name="LAST_COMMIT_MESSAGE" value="Full-screen camera." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="726" y="258" width="541" height="612" key="FileChooserDialogImpl" timestamp="1597988184195">
+    <state x="726" y="258" width="541" height="612" key="FileChooserDialogImpl" timestamp="1598417324952">
       <screen x="72" y="34" width="1848" height="1046" />
     </state>
-    <state x="726" y="258" width="541" height="612" key="FileChooserDialogImpl/72.34.1848.1046@72.34.1848.1046" timestamp="1597988184195" />
-    <state x="491" y="213" width="1000" height="695" key="Vcs.Push.Dialog.v2" timestamp="1598034132133">
+    <state x="726" y="258" width="541" height="612" key="FileChooserDialogImpl/72.34.1848.1046@72.34.1848.1046" timestamp="1598417324952" />
+    <state x="491" y="213" width="1000" height="695" key="Vcs.Push.Dialog.v2" timestamp="1598419378732">
       <screen x="72" y="34" width="1848" height="1046" />
     </state>
-    <state x="491" y="213" width="1000" height="695" key="Vcs.Push.Dialog.v2/72.34.1848.1046@72.34.1848.1046" timestamp="1598034132133" />
+    <state x="491" y="213" width="1000" height="695" key="Vcs.Push.Dialog.v2/72.34.1848.1046@72.34.1848.1046" timestamp="1598419378732" />
+    <state x="737" y="456" width="508" height="209" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598417348691">
+      <screen x="72" y="34" width="1848" height="1046" />
+    </state>
+    <state x="737" y="456" width="508" height="209" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.34.1848.1046@72.34.1848.1046" timestamp="1598417348691" />
     <state x="575" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1597987178018">
       <screen x="72" y="34" width="1848" height="1046" />
     </state>
